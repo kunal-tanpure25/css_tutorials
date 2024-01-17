@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+div{
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    border-radius: 50px;
+    background: #5da4da;
+}
+
+/* Properties discussed here are CSS Transform properties in X , Y and Z axis :
+1 . Rotatex / rotatey / rotatez
+2 . Scalex / scaley / scalez
+3 . translatex / translatey / translatez
+4 . skew*/
+
+div:hover{
+    transform: translate(400px);
+    transform: skew(30deg);
+    /* rotate: 360deg; */
+    /* rotate: x 45deg; */
+    /* transform: scale(1.5); */
+    transition-duration: 2s;
+
+}

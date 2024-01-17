@@ -1,0 +1,24 @@
+.block{
+    display: block;
+}
+
+.inline{
+    display: inline;
+}
+
+/* sometimes when we declare blockk element as inline element we can not assign top and bottom
+margin in this case we declare it as inline-block element as shown below
+
+when we need to hide some content we can declare display as none same property is shown by visibility: hidden
+but when we declare visibility as hidden it will hide element but space remains there*/
+
+
+.lol{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+/* In RGBA RGB stands for red green and blue and lastly A stands for Alpha channel in other words it determmines opacity of a text */

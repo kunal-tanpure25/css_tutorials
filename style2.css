@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: red underline;
+}
+
+#p1{
+    text-align: left;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* When we add anchor tag i.e link we get underline by default to remove it we can set text decoration to none */
+
+a{
+    text-decoration: none;
+}
+
+/* we declare font families with comma bcz not every browser support every font so we declaree multiple fonts and priorities decreases left to right */
+#p2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+
+/* Units : Absolute units
+
+mostly used unit is pixels (px)
+96px = 1 inch = 2.54 cm
+
+In text transform we can convert text into uppercase, lowercase, capitalize , etc
+
+*/
+
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+#p3{
+    font-size: 16px;
+    line-height: 40px;
+}
+

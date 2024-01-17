@@ -1,0 +1,45 @@
+/* 1. align-content ->	Modifies the behavior of the flex-wrap property. It is similar to align-items, but instead of aligning flex items, it aligns flex lines
+2. align-items ->	Vertically aligns the flex items when the items do not use all available space on the cross-axis
+3.flex-direction ->	Specifies the direction of the flexible items inside a flex container
+4. flex-flow ->	A shorthand property for flex-direction and flex-wrap
+5. flex-wrap ->	Specifies whether the flex items should wrap or not, if there is not enough room for them on one flex line
+6. justify-content ->	Horizontally aligns the flex items when the items do not use all available space on the main-axis */
+
+body{
+    color: white;
+    
+    height: 500px;
+    width: auto;
+    background-color: black;
+    border-color: aqua;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+}
+
+div{
+    color: white;
+    height: 100px;
+    width: 100px;
+    border-color: yellow;
+    border-style: solid;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 20px;
+    text-decoration: solid;
+    text-shadow: 10px;
+}
+
+p{
+    display: flex;
+    flex-direction: row;
+    /* align-self: baseline; */
+    justify-self: baseline;
+    position: relative;
+    left: 45%;
+    bottom: 40%;
+}

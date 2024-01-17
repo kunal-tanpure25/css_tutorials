@@ -1,0 +1,81 @@
+h1{
+    text-align: center;
+    color: rgb(236, 151, 22);
+
+}
+
+/* when we want to create box we define height and width
+For border we define width color and style 
+We can define border in single line known as border shorthand also for example
+border : width style color
+also border radius defined in px and % also */
+
+div{
+    height: 120px;
+    width: 500px;
+    background-color: rgb(0, 0, 0);
+    color: #21add3;
+    text-align: center;
+    /* border-width: 5px;
+    border-color: #ea4707;
+    border-style: groove; */
+
+    border: 5px #ea4707 groove;
+    border-radius: 15px;
+}
+/* when we write padding shorthand we go clockwise like top -> right -> Bottom-> left 
+same with margin element*/
+#sample{
+
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    color: #10e67e;
+    border: 5px #07eabd groove;
+    border-radius: 10px;
+
+    /* padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px; */
+
+    padding: 25px 10px 10px 10px;
+
+
+/*  margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px; */
+
+    margin: 25px 25px 25px 25px;
+
+    /* Padding works inside box and margin works outside box */
+}
+
+
+img{
+    justify-content: left;
+    height: 50px;
+    margin-left: 1px;
+    padding-top: 20px;
+
+}
+
+#Amazon{
+    background-color: black;
+    text-align: left;
+    border : none;
+    border-radius: 0px;
+    width: auto;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-left: 10px;
+}
+
+
+a{
+    padding-top: 300px;
+    margin-right: 250px;
+}
+
+

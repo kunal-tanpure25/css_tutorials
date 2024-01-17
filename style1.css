@@ -1,0 +1,55 @@
+h1{
+    color: darkslategray;
+}
+
+p{
+    color : rgb(20, 56, 57);
+}
+
+button{
+    color: rgb(18, 17, 16);
+    background-color: bisque;
+}
+
+body{
+    background-color: azure;
+}
+
+/* we can write colors using hexadecimmal system also. For Example,
+red = #ff0000
+green = #00ff00
+blue = #0000ff
+every color have range 0-255
+
+for website design we can use design color pallets which will suggest color combinations for websites : coolors.com
+
+in css program overwritten higher priority will be given declared lastly*/
+
+/* selectors are h1, p , button
+There are different types of slector
+1. Universal : we declare it as *{} - it is used for complete webpage font size font and colors
+2. Using ID : #heading{}
+3. Using class : .classname{}
+4. Element selector like abovve h1, body, etc
+
+*/
+
+#heading3{
+    color: rgb(16, 29, 16);
+    font: optional;
+}
+
+.Class_sample{
+    color: rgb(159, 53, 191);
+}
+
+.practice1{
+    color: cadetblue;
+    size: 0cqmax;
+    position: relative;
+    font-size: medium;
+    font-style: italic;
+    background-color: aquamarine;
+}
+
+/* TUTORIAL FOR COLOR AND BASIC OF CSS ENDS HERE */
